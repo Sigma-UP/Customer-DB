@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="CustomerLib_SQL">
+  <Items>
+    <LogicalFolder Name="Соединения" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="ALFA:ALFA\Acer">
+          <Created>2021-06-14T16:18:14.9831798+03:00</Created>
+          <Type>SQL</Type>
+          <Server>ALFA</Server>
+          <UserName />
+          <Authentication>Проверка подлинности Windows</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Среда Microsoft SQL Server Management Studio - запрос</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Запросы" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="DB_creation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DB_creation.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DB_remove.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DB_remove.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery1.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Разное" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
