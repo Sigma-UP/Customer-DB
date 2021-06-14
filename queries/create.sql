@@ -32,6 +32,7 @@ CREATE TABLE [dbo].[Addresses]
 	[Country] nvarchar(15) NOT NULL,
 	CONSTRAINT [FK_Addresses_Customer] FOREIGN KEY ([CustomerID]) 
 	REFERENCES [dbo].[Customers] ([CustomerID]) ON DELETE CASCADE ON UPDATE CASCADE,
+	CONSTRAINT [CK_Addresses_AddressType] CHECK([AddressType] in ('Billing', 'Shipping')),
 	CONSTRAINT [CK_Addresses_City] CHECK([City] LIKE '[A-Z]%[^0-9,@,.,_,\]%'),
 	CONSTRAINT [CK_Addresses_PostalCode] CHECK([PostalCode] LIKE '[0-9][0-9][0-9][0-9][0-9][0-9]'),
 	CONSTRAINT [CK_Addresses_State] CHECK([State] LIKE '[A-Z]%[^0-9,@,.,_,\]%'),
