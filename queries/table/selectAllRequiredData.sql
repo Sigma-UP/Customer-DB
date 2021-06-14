@@ -1,3 +1,4 @@
+USE [CustomerLib_Bezslyozniy]
 SELECT Customers.CustomerID, Customers.LastName,
 	 Notes.Note, TotalPurchasesAmount,
 	 Addresses.AddressLine, AddressType,
