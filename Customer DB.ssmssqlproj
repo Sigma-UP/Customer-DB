@@ -31,47 +31,77 @@
           <AssociatedConnUserName />
           <FullPath>QUERIES\data.sql</FullPath>
         </FileNode>
-        <FileNode Name="deleteAddress.sql">
+        <FileNode Name="execute_CRUD.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\deleteAddress.sql</FullPath>
+          <FullPath>execute_CRUD.sql</FullPath>
         </FileNode>
-        <FileNode Name="deleteCustomer.sql">
+        <FileNode Name="p_address_delete.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\deleteCustomer.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_address_delete.sql</FullPath>
         </FileNode>
-        <FileNode Name="deleteNote.sql">
+        <FileNode Name="p_address_insert.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\deleteNote.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_address_insert.sql</FullPath>
         </FileNode>
-        <FileNode Name="insertAddress.sql">
+        <FileNode Name="p_address_select.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\insertAddress.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_address_select.sql</FullPath>
         </FileNode>
-        <FileNode Name="insertCustomer.sql">
+        <FileNode Name="p_address_update.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\insertCustomer.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_address_update.sql</FullPath>
         </FileNode>
-        <FileNode Name="insertNote.sql">
+        <FileNode Name="p_customer_delete.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\insertNote.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_customer_delete.sql</FullPath>
         </FileNode>
-        <FileNode Name="remove.sql">
+        <FileNode Name="p_customer_insert.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>QUERIES\remove.sql</FullPath>
+          <FullPath>QUERIES\TABLE\p_customer_insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_customer_select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERIES\TABLE\p_customer_select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_note_delete.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERIES\TABLE\p_note_delete.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_note_insert.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERIES\TABLE\p_note_insert.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_note_select.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERIES\TABLE\p_note_select.sql</FullPath>
+        </FileNode>
+        <FileNode Name="p_note_update.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QUERIES\TABLE\p_note_update.sql</FullPath>
         </FileNode>
         <FileNode Name="selectAllAddresses.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
@@ -84,12 +114,6 @@
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>QUERIES\TABLE\selectAllCustomers.sql</FullPath>
-        </FileNode>
-        <FileNode Name="selectAllNotes.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
-          <AssociatedConnUserName />
-          <FullPath>QUERIES\TABLE\selectAllNotes.sql</FullPath>
         </FileNode>
         <FileNode Name="selectAllRequiredData.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>

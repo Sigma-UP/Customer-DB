@@ -14,11 +14,13 @@ CREATE TABLE [dbo].[Customers](
 	Email nvarchar(320) NULL,
 	TotalPurchasesAmount money NULL,
 	CONSTRAINT [PK_Customer] PRIMARY KEY ([CustomerID]),
-	CONSTRAINT [CK_Customers_LastName] CHECK([LastName] LIKE '[A-Z]_%'),
-	CONSTRAINT [CK_Customers_PhoneNumber] CHECK([PhoneNumber] LIKE '+%[0-9]'),
+	CONSTRAINT [CK_Customers_LastName] CHECK([LastName] LIKE '[A-Z]%[^0-9]%'),
+	CONSTRAINT [CK_Customers_PhoneNumber] CHECK([PhoneNumber] LIKE '+%[^A-Z]%'),
 	CONSTRAINT [CK_Customers_Email] CHECK([Email] LIKE '%_@__%.__%'AND PATINDEX('%[^a-z,0-9,@,.,_,\-]%', [Email]) = NULL),
+	CONSTRAINT [CK_Customers_TotalPurchasesAmount] CHECK([TotalPurchasesAmount] >= 0)
 	);
 
+GO
 CREATE TABLE [dbo].[Addresses]
  (
 	[AddressID] int IDENTITY(1, 1) NOT NULL,
@@ -39,6 +41,7 @@ CREATE TABLE [dbo].[Addresses]
 	CONSTRAINT [CK_Addresses_Country] CHECK([Country] in ('United States', 'Canada')) 
  );
 
+ GO
  CREATE TABLE [dbo].[Notes]
  (
 	[NoteID] int IDENTITY(1, 1) NOT NULL,
