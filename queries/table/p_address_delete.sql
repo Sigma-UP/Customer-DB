@@ -1,7 +1,9 @@
 USE [CustomerLib_Bezslyozniy]
 GO
 CREATE PROCEDURE p_address_delete
-	@id INT
+	@AddressId INT,
+	@CustomerId INT
 AS
 DELETE FROM [dbo].[Addresses]
-WHERE [Addresses].[CustomerID] = @id;
+WHERE [Addresses].[CustomerID] = @CustomerId AND
+	[Addresses].[AddressID] = @AddressId;
