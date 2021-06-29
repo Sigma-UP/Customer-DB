@@ -14,3 +14,5 @@ AS
 INSERT INTO [dbo].[Addresses](CustomerID, Line1, Line2, 
 AddressType, City, PostalCode, [State], Country)
 VALUES (@customer_id, @line1, @line2, @address_type, @city, @postal_code, @state, @country);
+GO
+EXEC p_address_insert 1, 'd', 'd', 'Billing', 'Denve', '121212', 'St', 'Canada';

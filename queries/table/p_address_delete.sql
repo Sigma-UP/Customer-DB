@@ -7,3 +7,5 @@ AS
 DELETE FROM [dbo].[Addresses]
 WHERE [Addresses].[CustomerID] = @CustomerId AND
 	[Addresses].[AddressID] = @AddressId;
+	Go
+	EXEC p_address_delete 1, 1;
