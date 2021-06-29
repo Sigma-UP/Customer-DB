@@ -25,8 +25,8 @@ CREATE TABLE [dbo].[Addresses]
  (
 	[AddressID] int IDENTITY(1, 1) NOT NULL,
 	[CustomerID] int NOT NULL,
-	[AddressLine] nvarchar(100) NOT NULL,
-	[AddressLine2] nvarchar(100) NULL,
+	[Line1] nvarchar(100) NOT NULL,
+	[Line2] nvarchar(100) NULL,
 	[AddressType] nvarchar(10) NOT NULL,
 	[City] nvarchar(50) NOT NULL,
 	[PostalCode] nvarchar(6) NOT NULL,
