@@ -35,7 +35,7 @@
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>ALFA</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>execute_CRUD.sql</FullPath>
+          <FullPath>QUERIES\TABLE\execute_CRUD.sql</FullPath>
         </FileNode>
         <FileNode Name="p_address_delete.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:ALFA:True</AssociatedConnectionMoniker>
